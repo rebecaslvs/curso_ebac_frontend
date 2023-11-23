@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Formulário</h2>
+      <form id="formulario">
+        <input
+          type="number"
+          id="numero1"
+          required
+          placeholder="Indique o primeiro número"
+        />
+        <input
+          type="number"
+          id="numero2"
+          required
+          placeholder="Indique o segundo número"
+        />
+        <div class="error-message"></div>
+        <div class="sucess-message"></div>
+        <button id="botao_formulario" type="submit">Enviar</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
