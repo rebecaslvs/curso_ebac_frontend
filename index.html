@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Lista de tarefas</h1>
+      <form>
+        <input
+          type="text"
+          required
+          placeholder="Insira o nome da tarefa aqui"
+          id="nome_tarefa"
+        />
+        <button>Cadastrar</button>
+      </form>
+      <ul id="lista_tarefas">
+        <li>
+          <span id="nome_tarefa_lista"></span>
+        </li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
