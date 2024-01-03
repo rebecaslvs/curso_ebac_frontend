@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+form input {
+    display: inline-block;
+    padding: 5px 100px;
+    margin: 5px;
+}
+
+h1, button {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 70px;
+}
+
+button:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.error  {
+    color: red;
+    font-size: 14px;
+    display: inline-block;
+}
