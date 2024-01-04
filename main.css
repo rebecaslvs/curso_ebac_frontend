@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 *{
-=======
-* {
->>>>>>> d28800e538228b20aa0c8527b1e7ab344ec87a10
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-<<<<<<< HEAD
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
     justify-content: center;
@@ -49,62 +44,4 @@ button:hover {
     color: red;
     font-size: 14px;
     display: inline-block;
-=======
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
-}
-
-.container {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.container h1 {
-    padding-bottom: 10px;
-}
-
-table {
-    display: inline-block;
-    border: black 1px solid;
-    border-collapse: collapse;;
-}
-
-table th {
-    width: 300px;
-}
-
-table td, tr {
-    border: black 1px solid;
-    padding: 10px;
-}
-
-form {
-    margin-bottom: 10px;
-}
-
-form input, button {
-   width: 250px;
-   height: 30px;
-}
-
-form input {
-    text-align: center;
-}
-
-form button {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    border: 2px solid rgb(1, 123, 1);
-    color: aliceblue;
-    background-color: green;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: rgb(6, 210, 6);
-    cursor: pointer;
->>>>>>> d28800e538228b20aa0c8527b1e7ab344ec87a10
 }
