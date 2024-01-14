@@ -136,7 +136,7 @@ main {
     
 }
 
-@media screen and (min-width: 641px) and (max-width: 1023px){
+@media screen and (min-width: 641px) and (max-width: 1366px){
     .sobre-a-loja {
         flex-direction: column;
     }
@@ -154,7 +154,7 @@ main {
         flex-wrap: wrap;
         width: 100%;
         grid-template-columns: repeat(2, 30%);
-        column-gap: 4%;
+        column-gap: 10%;
         row-gap: 4vh;
         justify-content: center;
     }
@@ -165,8 +165,8 @@ main {
         border-bottom: 0.3vh solid #3a68d4;
         color: #3a68d4;
         font-style: italic;
-        max-width: 90%;
-        margin-left: 6vw;
+        max-width: 95%;
+        margin-left: 3vw;
     }
 
     .produto {
