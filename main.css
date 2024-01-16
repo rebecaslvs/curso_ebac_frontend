@@ -1,0 +1,25 @@
+
+.row {
+    margin-top: 10%;
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form button {
+    padding: 0.5em;
+    width: 100%;
+    background: #f3f3f3;
+    border: 0;
+    font-weight: bold;
+    margin-top: 1vh;
+}
+
+h2 {
+    text-align: center;
+}
