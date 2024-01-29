@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Papelaria Teixeira</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+      <div class="container">
+        <h1 class="navbar-brand m-0 section-title">Papelaria Teixeira</h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item">
+              <a href="#sobre-a-papelaria" class="nav-link">
+                <i class="bi bi-house-door me-1"></i>
+                Sobre a papelaria
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="bi bi-envelope-paper-heart me-1"></i>
+                Produtos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bi bi-box2-heart me-1"></i>
+                Kits
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="bi bi-chat-left-text me-1"></i>
+                Contato
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+      <section id="sobre-a-papelaria">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="imagens/imagem1.jpg" class="d-block w-100" alt="foto de papéis" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="imagens/imagem2.jpg" class="d-block w-100" alt="foto de papéis em prateleira" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="imagens/imagem3.jpg" class="d-block w-100" alt="foto de alguns lápis" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="control prev icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="control next icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+        </div>
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img src="imagens/loja.jpg" class="d-block w-100 rounded" alt="espaço interno da papelaria" />
+              </div>
+              <div class="col-md-7">
+                <h2 class="section-title">Sobre <span>a papelaria</span></h2>
+                <p>
+                  A Papelaria Teixeira é uma empresa familiar que está no mercado
+                  desde 1990. Nossa missão é oferecer produtos de qualidade e
+                  atendimento personalizado para nossos clientes. Trabalhamos com
+                  uma grande variedade de produtos, desde materiais escolares até
+                  materiais para escritório. Venha nos conhecer!
+                </p>
+                <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                <p>
+                  Nossa loja possui um espaço amplo e agradável, com uma grande
+                  variedade de produtos. Temos uma equipe de funcionários
+                  especializados para atender nossos clientes da melhor forma
+                  possível.
+                </p>
+                <ul>
+                  <li>Item 1</li>
+                  <li>Item 2</li>
+                  <li>Item 3</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

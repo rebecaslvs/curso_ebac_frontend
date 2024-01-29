@@ -1,0 +1,37 @@
+body {
+    font-family: Exo, sans-serif;
+}
+
+.navbar {
+    background-color:darkseagreen;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.nav .nav-link.active {
+    background-color: white;
+    color: darkseagreen;
+}
+
+.nav .nav-link, .navbar-brand, .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span {
+    color: rgb(116, 151, 116);
+}
+
+#sobre-a-papelaria {
+    background-color: rgba(143, 188, 143, 0.115);
+}
