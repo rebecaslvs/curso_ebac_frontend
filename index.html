@@ -43,19 +43,19 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"
+              <a href="#produtos" class="nav-link"
                 ><i class="bi bi-envelope-paper-heart me-1"></i>
                 Produtos
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#kits" class="nav-link">
                 <i class="bi bi-box2-heart me-1"></i>
                 Kits
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#contato" class="nav-link">
                 <i class="bi bi-chat-left-text me-1"></i>
                 Contato
               </a>
@@ -64,7 +64,7 @@
         </nav>
       </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
       <section id="sobre-a-papelaria">
         <div class="carousel slide" data-bs-ride="carousel" id="carousel">
           <div class="carousel-inner">
@@ -73,9 +73,6 @@
             </div>
             <div class="carousel-item" data-bs-interval="3000">
               <img src="imagens/imagem2.jpg" class="d-block w-100" alt="foto de papéis em prateleira" />
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img src="imagens/imagem3.jpg" class="d-block w-100" alt="foto de alguns lápis" />
             </div>
           </div>
           <button
@@ -106,21 +103,16 @@
               data-bs-target="#carousel"
               data-bs-slide-to="1"
             ></button>
-            <button
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide-to="2"
-            ></button>
           </div>
         </div>
         <div class="pt-5 pb-5">
-          <div class="container">
+          <div class="container container-sobre">
             <div class="row">
               <div class="col-md-5">
                 <img src="imagens/loja.jpg" class="d-block w-100 rounded" alt="espaço interno da papelaria" />
               </div>
-              <div class="col-md-7">
-                <h2 class="section-title">Sobre <span>a papelaria</span></h2>
+              <div class="col-md-7 mt-3 mt-md-0">
+                <h2 class="section-title">Sobre <span class="text-colored">a papelaria</span></h2>
                 <p>
                   A Papelaria Teixeira é uma empresa familiar que está no mercado
                   desde 1990. Nossa missão é oferecer produtos de qualidade e
@@ -128,7 +120,7 @@
                   uma grande variedade de produtos, desde materiais escolares até
                   materiais para escritório. Venha nos conhecer!
                 </p>
-                <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                <h3 class="section-title">Sobre <span class="text-colored"> o espaço</span></h3>
                 <p>
                   Nossa loja possui um espaço amplo e agradável, com uma grande
                   variedade de produtos. Temos uma equipe de funcionários
@@ -144,8 +136,228 @@
           </div>
         </div>
       </section>
+      <section id="produtos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">Conheça os <span class="text-colored">nossos produtos</span></h2>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <img src="imagens/caneta.jpg" alt="canetas" class="d-block w-100 rounded mb-2">
+              <h3 class="section-title text-colored fs-4">
+                <i class="bi bi-pencil"></i>
+                Canetas</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptatum, quibusdam, quia, quos voluptates voluptatibus
+                voluptatem quod quas doloribus quidem voluptate. Quisquam
+                voluptatum, quibusdam, quia, quos voluptates voluptatibus
+                voluptatem quod quas doloribus quidem voluptate.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img src="imagens/lápis de cor.jpg" alt="lápis de cor" class="d-block w-100 rounded mb-2">
+              <h3 class="section-title text-colored fs-4">
+                <i class="bi bi-pencil-fill"></i>
+                Lápis de cor</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptatum, quibusdam, quia, quos voluptates voluptatibus
+                voluptatem quod quas doloribus quidem voluptate. Quisquam
+                voluptatum, quibusdam, quia, quos voluptates voluptatibus
+                voluptatem quod quas doloribus quidem voluptate.
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img src="imagens/livros.jpg" alt="livros" class="d-block w-100 rounded mb-2">
+              <h3 class="section-title text-colored fs-4">
+                <i class="bi bi-book"></i>
+                Livros</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                voluptatum, quibusdam, quia, quos voluptates voluptatibus
+                voluptatem quod quas doloribus quidem voluptate. Quisquam
+                voluptatum, quibusdam, quia, quos voluptates voluptatibus
+                voluptatem quod quas doloribus quidem voluptate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kits" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-5">Conheça os <span class="text-colored">nossos kits</span></h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-kits">
+                <button type="button" data-bs-toggle="tab" data-bs-target="#kits-basicos" class="fw-bold text-start nav-link text-colored active">Kits básicos</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#kits-escolares" class="fw-bold text-start nav-link text-colored">Kits escolares</button>
+                <button type="button" data-bs-toggle="tab" data-bs-target="#kits-para-arquitetos" class="fw-bold text-start nav-link text-colored">Kits para arquitetos</button>
+              </nav>
+            </aside>
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="kits-basicos">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="imagens/kit escolar.jpg" alt="">
+                      <h5 class="text-colored fw-bold mt-2">Kit básico</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="imagens/kit escolar 2.webp" alt="">
+                      <h5 class="text-colored fw-bold mt-2">Kit básico</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="kits-escolares">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="imagens/kit escolar 3.jpeg" alt="">
+                      <h5 class="text-colored fw-bold mt-2">Kit escolar</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="imagens/kit escolar 4.jpeg" alt="">
+                      <h5 class="text-colored fw-bold mt-2">Kit escolar</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="kits-para-arquitetos">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="d-block w-100" src="imagens/arquitetura.webp" alt="">
+                      <h5 class="text-colored fw-bold mt-2">Kit para arquitetos</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="pt-5 pb-5">
+       <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center mb-5">Entre em <span class="text-colored">contato conosco</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+              <form id="formulario">
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-colored" for="nome">Seu nome: </label>
+                  <input type="text" name="" id="nome" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-colored" for="email">Seu e-mail: </label>
+                  <input type="email" name="" id="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-colored" for="telefone">Seu telefone (opcional): </label>
+                  <input type="tel" name="" id="telefone" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem: </label>
+                  <textarea id="mensagem" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn fw-bold">Enviar</button>
+              </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                Redes sociais</h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-facebook text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5 ms-1 me-1">
+                  <a href="#">
+                    <i class="bi bi-instagram text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text-colored"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p>
+                Rua das Flores, nº 123, Bairro Jardim, Vitória da Conquista - Bahia.
+              </p>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      // Aplicar máscara para telefone
+      $('#telefone').mask('(00) 00000-0000');
+
+      // Configurar validação
+      $('#formulario').validate({
+        rules: {
+          nome: 'required',
+          telefone: {
+            minlength: 14 // Considerando que o formato da máscara do telefone tem 14 caracteres
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          mensagem: 'required'
+        },
+        messages: {
+          nome: 'Campo obrigatório',
+          telefone: 'Telefone inválido',
+          email: {
+            required: 'Campo obrigatório',
+            email: 'Digite um e-mail válido'
+          },
+          mensagem: 'Campo obrigatório'
+        },
+        submitHandler: function(form) {
+          // Ação a ser executada quando o formulário é submetido com sucesso
+          alert('Formulário válido! Enviando...');
+          // Aqui você pode adicionar o código para enviar o formulário, por exemplo, usando AJAX
+        }
+      });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/localization/messages_pt_BR.min.js"></script>
+
+
   </body>
 </html>

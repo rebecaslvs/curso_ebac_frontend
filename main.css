@@ -11,12 +11,12 @@ body {
     font-size: 2em;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: white;
     color: darkseagreen;
 }
 
-.nav .nav-link, .navbar-brand, .navbar-brand:hover {
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-kits .nav-link.active:hover {
     color: white;
 }
 
@@ -28,10 +28,42 @@ body {
     font-family: Pacifico, cursive;
 }
 
-.section-title span {
-    color: rgb(116, 151, 116);
+#sobre-a-papelaria, #kits {
+    background-color: rgba(143, 188, 143, 0.27);
 }
 
-#sobre-a-papelaria {
-    background-color: rgba(143, 188, 143, 0.115);
+.carousel-item img {
+    height: 70vh;
+}
+
+.text-colored {
+    color: darkseagreen;
+}
+
+.container-sobre img {
+    margin-bottom: 1vh;
+}
+
+.nav-kits .nav-link.active, #contato button {
+    background-color: darkseagreen;
+    color: white;
+}
+
+.nav-kits .nav-link:hover {
+    color: darkseagreen;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 40vh;
+    }
 }
