@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -62,5 +63,50 @@
         </ul>
       </div>
     </section>
+=======
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Agenda de Contatos</h1>
+      </header>
+      <form id="form-agenda">
+        <input
+          type="text"
+          id="nome-contato"
+          required
+          placeholder="Nome do contato"
+        />
+        <input
+          type="tel"
+          id="telefone-contato"
+          required
+          placeholder="Telefone do contato"
+        />
+        <button type="submit">Adicionar +</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="nome-final"><span>---</span></td>
+            <td id="telefone-final"><span>---</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+>>>>>>> d28800e538228b20aa0c8527b1e7ab344ec87a10
   </body>
 </html>
