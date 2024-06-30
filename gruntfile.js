@@ -1,5 +1,3 @@
-const { loadTasks } = require("grunt");
-
 module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
@@ -71,7 +69,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             flatten: true,
-            src: ["prebuild/index.html"],
+            src: ["src/index.html"],
             dest: "dist/",
           },
         ],
@@ -88,7 +86,9 @@ module.exports = function (grunt) {
         },
       },
     },
-    clean: ["prebuild"],
+    clean: {
+      build: ["dist", "dev", "prebuild"],
+    },
     uglify: {
       target: {
         files: {
@@ -106,10 +106,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks("grunt-contrib-uglify");
 
   grunt.registerTask("build", [
+    "clean:build",
     "less:production",
     "htmlmin:dist",
     "replace:dist",
-    "clean",
     "uglify",
   ]);
 

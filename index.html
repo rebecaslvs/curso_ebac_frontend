@@ -3,44 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agenda de Contatos</title>
-    <link rel="stylesheet" href="main.css" />
+    <title>Sorteador</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="@@endereco_do_css" />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>Agenda de Contatos</h1>
-      </header>
-      <form id="form-agenda">
-        <input
-          type="text"
-          id="nome-contato"
-          required
-          placeholder="Nome do contato"
-        />
-        <input
-          type="tel"
-          id="telefone-contato"
-          required
-          placeholder="Telefone do contato"
-        />
-        <button type="submit">Adicionar +</button>
+    <main>
+      <h1>Sorteador</h1>
+      <form id="form-sorteador">
+        <div>
+          <label for="numero-maximo">Número máximo</label>
+          <input
+            type="number"
+            id="numero-maximo"
+            required
+            min="2"
+            value="2"
+            step="1"
+          />
+        </div>
+        <button type="submit">Sortear número</button>
       </form>
-      <table>
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Telefone</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td id="nome-final"><span>---</span></td>
-            <td id="telefone-final"><span>---</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <script src="main.js"></script>
+      <div class="resultado">
+        O número sorteado foi: <span id="resultado-valor"></span>
+      </div>
+    </main>
+    <script src="@@endereco_do_js"></script>
   </body>
 </html>
